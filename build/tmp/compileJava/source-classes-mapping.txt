@@ -1,3 +1,5 @@
+proyecto2/model/AcademyChoucairData.java
+ proyecto2.model.AcademyChoucairData
 proyecto2/userinterface/ChoucairAcademyPage.java
  proyecto2.userinterface.ChoucairAcademyPage
 proyecto2/task/OpenUp.java
