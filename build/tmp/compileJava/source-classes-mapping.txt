@@ -4,6 +4,8 @@ proyecto2/task/OpenUp.java
  proyecto2.task.OpenUp
 proyecto2/userinterface/ChoucairLoginPage.java
  proyecto2.userinterface.ChoucairLoginPage
+proyecto2/questions/Answer.java
+ proyecto2.questions.Answer
 proyecto2/task/Login.java
  proyecto2.task.Login
 proyecto2/task/Search.java

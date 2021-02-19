@@ -5,12 +5,14 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+//import org.mockito.stubbing.Answer;
 import proyecto2.task.Login;
 import proyecto2.task.OpenUp;
 import proyecto2.task.Search;
-
+import proyecto2.questions.Answer;
 public class ChoucairAcademyStefDefinitions {
     //Preparamos el scenario para el actor
     @Before
@@ -33,8 +35,10 @@ public class ChoucairAcademyStefDefinitions {
 
     }
 
-    @Then("^he finds the course called resources Recursos Automatizacion Bancolombia$")
-    public void heFindsTheCourseCalledResourcesRecursosAutomatizacionBancolombia() {
+    @Then("^he finds the course called resources (.*)$")
+    public void heFindsTheCourseCalledResourcesRecursosAutomatizacionBancolombia(String question) {
+
         // Write code here that turns the phrase above into concrete actions
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(question)));
     }
 }
