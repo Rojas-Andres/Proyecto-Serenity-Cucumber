@@ -1,0 +1,4 @@
+proyecto2/runners/RunnerTags.java
+ proyecto2.runners.RunnerTags
+proyecto2/stepdefinitions/ChoucairAcademyStefDefinitions.java
+ proyecto2.stepdefinitions.ChoucairAcademyStefDefinitions

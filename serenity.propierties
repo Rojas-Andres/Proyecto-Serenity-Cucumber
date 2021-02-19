@@ -1,0 +1,10 @@
+webdriver.driver=chorme
+webdriver.chorme.driver=src/test/resources/driver/chormedriver.exe
+serenity.project.name= Demo Project
+chorme.switches=--start--maximized
+webdriver.timeouts.implicitlywait=10000
+serenity.take.screenshots=AFTER_EACH_STEP
+serenity.verbose.steps=FALSE
+serenity.report.encoding=UTF-8
+feature.file.encoding =UTF-8
+serenity.test.root=net.thucydides.showcase.cucumber.junit

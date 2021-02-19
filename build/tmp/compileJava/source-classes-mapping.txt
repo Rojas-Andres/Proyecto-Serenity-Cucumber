@@ -1,0 +1,12 @@
+proyecto2/userinterface/ChoucairAcademyPage.java
+ proyecto2.userinterface.ChoucairAcademyPage
+proyecto2/task/OpenUp.java
+ proyecto2.task.OpenUp
+proyecto2/userinterface/ChoucairLoginPage.java
+ proyecto2.userinterface.ChoucairLoginPage
+proyecto2/task/Login.java
+ proyecto2.task.Login
+proyecto2/task/Search.java
+ proyecto2.task.Search
+proyecto2/userinterface/SearchCoursePage.java
+ proyecto2.userinterface.SearchCoursePage
