@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
 
-public class SearchCoursePage extends PageObject {
+public class SearchCoursePage {
 
     public static final Target CLICKSELECTION = Target.the("Entramos para buscar el curso").located(By.xpath("//div[@id='certificaciones']//strong"));
     public static final Target INPUTCOURSE=Target.the("Buscamos el curso").located(By.id("coursesearchbox"));
